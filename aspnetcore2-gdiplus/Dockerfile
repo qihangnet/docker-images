@@ -1,2 +1,2 @@
-FROM microsoft/aspnetcore:2.0.0
+FROM microsoft/aspnetcore:2.0.3
 RUN apt-get update && apt-get install -y libgdiplus && rm -rf /var/lib/apt/lists/*
