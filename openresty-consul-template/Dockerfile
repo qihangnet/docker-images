@@ -1,6 +1,6 @@
-FROM openresty/openresty:1.11.2.5-alpine
+FROM openresty/openresty:1.13.6.2-alpine
 
-ENV CONSUL_TEMPLATE_VERSION 0.19.3
+ENV CONSUL_TEMPLATE_VERSION 0.19.5
 RUN  cd /tmp \
   && apk update \
   && apk --no-cache add \
